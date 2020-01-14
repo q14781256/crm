@@ -5,7 +5,7 @@ public class SaleChance {
 
     private String chanceSource;
 
-    private String chanCecustName;
+    private String chanceCustName;
 
     private String chanceTitle;
 
@@ -26,6 +26,10 @@ public class SaleChance {
     private String chanceDueDate;
 
     private Integer chanceStatus;
+    
+    private int beginNum;
+    
+	private int maxPageNum;
 
 	public Integer getChanceId() {
 		return chanceId;
@@ -43,12 +47,14 @@ public class SaleChance {
 		this.chanceSource = chanceSource;
 	}
 
-	public String getChanCecustName() {
-		return chanCecustName;
+	
+
+	public String getChanceCustName() {
+		return chanceCustName;
 	}
 
-	public void setChanCecustName(String chanCecustName) {
-		this.chanCecustName = chanCecustName;
+	public void setChanceCustName(String chanceCustName) {
+		this.chanceCustName = chanceCustName;
 	}
 
 	public String getChanceTitle() {
@@ -130,6 +136,24 @@ public class SaleChance {
 	public void setChanceStatus(Integer chanceStatus) {
 		this.chanceStatus = chanceStatus;
 	}
+
+	public int getBeginNum() {
+		return beginNum;
+	}
+
+	public void setBeginNum(int beginNum) {
+		this.beginNum = beginNum;
+	}
+
+	public int getMaxPageNum() {
+		return maxPageNum;
+	}
+
+	public void setMaxPageNum(int maxPageNum) {
+		this.maxPageNum = maxPageNum;
+	}
+
+	
 
     
 }
